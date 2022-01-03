@@ -1,0 +1,14 @@
+*.d
+*.o
+*.pc
+.gdb_history
+
+# C extensions
+*.so*
+*.out
+
+docs/html/
+docs/*.tag
+vendor/
+
+.vscode/

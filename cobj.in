@@ -1,0 +1,10 @@
+prefix=@prefix@
+libdir=${prefix}/@libdir@
+includedir=${prefix}/@includedir@
+
+Name: cobj
+Description: Cooperative C Object System
+Version: @version@
+URL: https://github.com/yangfl/cobj
+Libs: -L${libdir} -lcobj
+Cflags: -I${includedir}
